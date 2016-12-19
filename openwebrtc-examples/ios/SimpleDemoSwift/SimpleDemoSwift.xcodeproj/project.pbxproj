@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37755C3D1A3B91AC009189D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37755C3C1A3B91AC009189D6 /* AppDelegate.swift */; };
+		37755C3F1A3B91AC009189D6 /* SimpleDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37755C3E1A3B91AC009189D6 /* SimpleDemoViewController.swift */; };
+		37755C421A3B91AC009189D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37755C401A3B91AC009189D6 /* Main.storyboard */; };
+		37755C441A3B91AC009189D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37755C431A3B91AC009189D6 /* Images.xcassets */; };
+		37755C471A3B91AC009189D6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37755C451A3B91AC009189D6 /* LaunchScreen.xib */; };
+		377562EF1A3B951C009189D6 /* OpenWebRTCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377562EB1A3B951C009189D6 /* OpenWebRTCViewController.swift */; };
+		377562F21A3B958E009189D6 /* OpenWebRTCWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377562F11A3B958E009189D6 /* OpenWebRTCWebView.swift */; };
+		74F508FC1AC98D6B00402319 /* OpenWebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F508FB1AC98D6B00402319 /* OpenWebRTC.framework */; };
+		74F508FE1AC98DA400402319 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F508FD1AC98DA400402319 /* CoreMedia.framework */; };
+		74F509001AC98DA900402319 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F508FF1AC98DA900402319 /* CoreAudio.framework */; };
+		74F509021AC98DAF00402319 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F509011AC98DAF00402319 /* CoreVideo.framework */; };
+		74F509041AC98DB300402319 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F509031AC98DB300402319 /* AudioToolbox.framework */; };
+		74F509061AC98DB900402319 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F509051AC98DB900402319 /* VideoToolbox.framework */; };
+		74F509081AC98DBE00402319 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F509071AC98DBE00402319 /* OpenGLES.framework */; };
+		74F5090A1AC98DC600402319 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F509091AC98DC600402319 /* JavaScriptCore.framework */; };
+		74F5090C1AC98DCE00402319 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F5090B1AC98DCE00402319 /* libc++.dylib */; };
+		74F5090E1AC98DD300402319 /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F5090D1AC98DD300402319 /* libresolv.dylib */; };
+		74F509101AC98DDD00402319 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F5090F1AC98DDD00402319 /* AssetsLibrary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37755C371A3B91AC009189D6 /* SimpleDemoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleDemoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37755C3B1A3B91AC009189D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37755C3C1A3B91AC009189D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37755C3E1A3B91AC009189D6 /* SimpleDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDemoViewController.swift; sourceTree = "<group>"; };
+		37755C411A3B91AC009189D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37755C431A3B91AC009189D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		37755C461A3B91AC009189D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		377562EB1A3B951C009189D6 /* OpenWebRTCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenWebRTCViewController.swift; sourceTree = "<group>"; };
+		377562F11A3B958E009189D6 /* OpenWebRTCWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenWebRTCWebView.swift; sourceTree = "<group>"; };
+		37EA89B81A3CAF610090104E /* OpenWebRTC-BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenWebRTC-BridgingHeader.h"; sourceTree = "<group>"; };
+		74F508FB1AC98D6B00402319 /* OpenWebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenWebRTC.framework; path = ../../../../../../OpenWebRTC/iPhone.sdk/OpenWebRTC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F508FD1AC98DA400402319 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		74F508FF1AC98DA900402319 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		74F509011AC98DAF00402319 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		74F509031AC98DB300402319 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		74F509051AC98DB900402319 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		74F509071AC98DBE00402319 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		74F509091AC98DC600402319 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		74F5090B1AC98DCE00402319 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		74F5090D1AC98DD300402319 /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
+		74F5090F1AC98DDD00402319 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37755C341A3B91AC009189D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F509101AC98DDD00402319 /* AssetsLibrary.framework in Frameworks */,
+				74F5090E1AC98DD300402319 /* libresolv.dylib in Frameworks */,
+				74F5090C1AC98DCE00402319 /* libc++.dylib in Frameworks */,
+				74F5090A1AC98DC600402319 /* JavaScriptCore.framework in Frameworks */,
+				74F509081AC98DBE00402319 /* OpenGLES.framework in Frameworks */,
+				74F509061AC98DB900402319 /* VideoToolbox.framework in Frameworks */,
+				74F509041AC98DB300402319 /* AudioToolbox.framework in Frameworks */,
+				74F509021AC98DAF00402319 /* CoreVideo.framework in Frameworks */,
+				74F509001AC98DA900402319 /* CoreAudio.framework in Frameworks */,
+				74F508FE1AC98DA400402319 /* CoreMedia.framework in Frameworks */,
+				74F508FC1AC98D6B00402319 /* OpenWebRTC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37755C2E1A3B91AC009189D6 = {
+			isa = PBXGroup;
+			children = (
+				37755C391A3B91AC009189D6 /* SimpleDemoSwift */,
+				37755C5C1A3B91E9009189D6 /* Frameworks */,
+				37755C381A3B91AC009189D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37755C381A3B91AC009189D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37755C371A3B91AC009189D6 /* SimpleDemoSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37755C391A3B91AC009189D6 /* SimpleDemoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				377562E81A3B951C009189D6 /* OwrHelpers */,
+				37755C3C1A3B91AC009189D6 /* AppDelegate.swift */,
+				37755C3E1A3B91AC009189D6 /* SimpleDemoViewController.swift */,
+				37755C401A3B91AC009189D6 /* Main.storyboard */,
+				37755C431A3B91AC009189D6 /* Images.xcassets */,
+				37755C451A3B91AC009189D6 /* LaunchScreen.xib */,
+				37755C3A1A3B91AC009189D6 /* Supporting Files */,
+			);
+			path = SimpleDemoSwift;
+			sourceTree = "<group>";
+		};
+		37755C3A1A3B91AC009189D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37755C3B1A3B91AC009189D6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37755C5C1A3B91E9009189D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74F5090F1AC98DDD00402319 /* AssetsLibrary.framework */,
+				74F5090D1AC98DD300402319 /* libresolv.dylib */,
+				74F5090B1AC98DCE00402319 /* libc++.dylib */,
+				74F509091AC98DC600402319 /* JavaScriptCore.framework */,
+				74F509071AC98DBE00402319 /* OpenGLES.framework */,
+				74F509051AC98DB900402319 /* VideoToolbox.framework */,
+				74F509031AC98DB300402319 /* AudioToolbox.framework */,
+				74F509011AC98DAF00402319 /* CoreVideo.framework */,
+				74F508FF1AC98DA900402319 /* CoreAudio.framework */,
+				74F508FD1AC98DA400402319 /* CoreMedia.framework */,
+				74F508FB1AC98D6B00402319 /* OpenWebRTC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		377562E81A3B951C009189D6 /* OwrHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				377562EB1A3B951C009189D6 /* OpenWebRTCViewController.swift */,
+				377562F11A3B958E009189D6 /* OpenWebRTCWebView.swift */,
+				37EA89B81A3CAF610090104E /* OpenWebRTC-BridgingHeader.h */,
+			);
+			name = OwrHelpers;
+			path = ../../OwrHelpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37755C361A3B91AC009189D6 /* SimpleDemoSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37755C561A3B91AC009189D6 /* Build configuration list for PBXNativeTarget "SimpleDemoSwift" */;
+			buildPhases = (
+				37755C331A3B91AC009189D6 /* Sources */,
+				37755C341A3B91AC009189D6 /* Frameworks */,
+				37755C351A3B91AC009189D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleDemoSwift;
+			productName = SimpleDemoSwift;
+			productReference = 37755C371A3B91AC009189D6 /* SimpleDemoSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37755C2F1A3B91AC009189D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ericsson Research";
+				TargetAttributes = {
+					37755C361A3B91AC009189D6 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 37755C321A3B91AC009189D6 /* Build configuration list for PBXProject "SimpleDemoSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37755C2E1A3B91AC009189D6;
+			productRefGroup = 37755C381A3B91AC009189D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37755C361A3B91AC009189D6 /* SimpleDemoSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37755C351A3B91AC009189D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37755C421A3B91AC009189D6 /* Main.storyboard in Resources */,
+				37755C471A3B91AC009189D6 /* LaunchScreen.xib in Resources */,
+				37755C441A3B91AC009189D6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37755C331A3B91AC009189D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377562F21A3B958E009189D6 /* OpenWebRTCWebView.swift in Sources */,
+				377562EF1A3B951C009189D6 /* OpenWebRTCViewController.swift in Sources */,
+				37755C3F1A3B91AC009189D6 /* SimpleDemoViewController.swift in Sources */,
+				37755C3D1A3B91AC009189D6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37755C401A3B91AC009189D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37755C411A3B91AC009189D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37755C451A3B91AC009189D6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37755C461A3B91AC009189D6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37755C541A3B91AC009189D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37755C551A3B91AC009189D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37755C571A3B91AC009189D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/OpenWebRTC/iPhone.sdk",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"~/Library/Developer/OpenWebRTC/iPhone.sdk/OpenWebRTC.framework/Headers/**",
+				);
+				INFOPLIST_FILE = SimpleDemoSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/../OwrHelpers/OpenWebRTC-BridgingHeader.h";
+			};
+			name = Debug;
+		};
+		37755C581A3B91AC009189D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/OpenWebRTC/iPhone.sdk",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"~/Library/Developer/OpenWebRTC/iPhone.sdk/OpenWebRTC.framework/Headers/**",
+				);
+				INFOPLIST_FILE = SimpleDemoSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/../OwrHelpers/OpenWebRTC-BridgingHeader.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37755C321A3B91AC009189D6 /* Build configuration list for PBXProject "SimpleDemoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37755C541A3B91AC009189D6 /* Debug */,
+				37755C551A3B91AC009189D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37755C561A3B91AC009189D6 /* Build configuration list for PBXNativeTarget "SimpleDemoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37755C571A3B91AC009189D6 /* Debug */,
+				37755C581A3B91AC009189D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37755C2F1A3B91AC009189D6 /* Project object */;
+}

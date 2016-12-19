@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FE4248A53BABC7DA93ED49A /* libPods-SimpleDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E8E32B1565616203EDA921 /* libPods-SimpleDemo.a */; };
+		7427477A1AC9860900D2F958 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742747791AC9860900D2F958 /* CoreMedia.framework */; };
+		7427477C1AC9860E00D2F958 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7427477B1AC9860E00D2F958 /* CoreAudio.framework */; };
+		7427477E1AC9861400D2F958 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7427477D1AC9861400D2F958 /* CoreVideo.framework */; };
+		742747801AC9861900D2F958 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7427477F1AC9861900D2F958 /* AudioToolbox.framework */; };
+		742747821AC9861D00D2F958 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742747811AC9861D00D2F958 /* VideoToolbox.framework */; };
+		742747841AC9862200D2F958 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742747831AC9862200D2F958 /* AssetsLibrary.framework */; };
+		742747861AC9862A00D2F958 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742747851AC9862A00D2F958 /* OpenGLES.framework */; };
+		742747881AC9863A00D2F958 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742747871AC9863A00D2F958 /* JavaScriptCore.framework */; };
+		F8CD805519FD2CEF00B0ED0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CD805419FD2CEF00B0ED0C /* main.m */; };
+		F8CD805819FD2CEF00B0ED0C /* SimpleDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CD805719FD2CEF00B0ED0C /* SimpleDemoAppDelegate.m */; };
+		F8CD805E19FD2CEF00B0ED0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8CD805C19FD2CEF00B0ED0C /* Main.storyboard */; };
+		F8CD806019FD2CEF00B0ED0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8CD805F19FD2CEF00B0ED0C /* Images.xcassets */; };
+		F8CD806319FD2CEF00B0ED0C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8CD806119FD2CEF00B0ED0C /* LaunchScreen.xib */; };
+		F8CD809E19FD7DB700B0ED0C /* SimpleDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CD809D19FD7DB700B0ED0C /* SimpleDemoViewController.m */; };
+		F8D883771C57F24600976BF7 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D883761C57F24600976BF7 /* libiconv.tbd */; };
+		F8E9CB471BD4BDE3006ED336 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E9CB461BD4BDE3006ED336 /* libresolv.tbd */; };
+		F8E9CB491BD4BDF0006ED336 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E9CB481BD4BDF0006ED336 /* libc++.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17E8E32B1565616203EDA921 /* libPods-SimpleDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		292B8C2AAEA634109FE0DFDF /* Pods-SimpleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleDemo/Pods-SimpleDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4319A5DAFF0E162201454476 /* Pods-SimpleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleDemo/Pods-SimpleDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		742747791AC9860900D2F958 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		7427477B1AC9860E00D2F958 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		7427477D1AC9861400D2F958 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		7427477F1AC9861900D2F958 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		742747811AC9861D00D2F958 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		742747831AC9862200D2F958 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		742747851AC9862A00D2F958 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		742747871AC9863A00D2F958 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F8CD804F19FD2CEF00B0ED0C /* SimpleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8CD805319FD2CEF00B0ED0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8CD805419FD2CEF00B0ED0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8CD805619FD2CEF00B0ED0C /* SimpleDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleDemoAppDelegate.h; sourceTree = "<group>"; };
+		F8CD805719FD2CEF00B0ED0C /* SimpleDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleDemoAppDelegate.m; sourceTree = "<group>"; };
+		F8CD805D19FD2CEF00B0ED0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8CD805F19FD2CEF00B0ED0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F8CD806219FD2CEF00B0ED0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F8CD809C19FD7DB700B0ED0C /* SimpleDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleDemoViewController.h; sourceTree = "<group>"; };
+		F8CD809D19FD7DB700B0ED0C /* SimpleDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleDemoViewController.m; sourceTree = "<group>"; };
+		F8D883761C57F24600976BF7 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		F8E9CB461BD4BDE3006ED336 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		F8E9CB481BD4BDF0006ED336 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8CD804C19FD2CEF00B0ED0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D883771C57F24600976BF7 /* libiconv.tbd in Frameworks */,
+				F8E9CB491BD4BDF0006ED336 /* libc++.tbd in Frameworks */,
+				F8E9CB471BD4BDE3006ED336 /* libresolv.tbd in Frameworks */,
+				742747881AC9863A00D2F958 /* JavaScriptCore.framework in Frameworks */,
+				742747861AC9862A00D2F958 /* OpenGLES.framework in Frameworks */,
+				742747841AC9862200D2F958 /* AssetsLibrary.framework in Frameworks */,
+				742747821AC9861D00D2F958 /* VideoToolbox.framework in Frameworks */,
+				742747801AC9861900D2F958 /* AudioToolbox.framework in Frameworks */,
+				7427477E1AC9861400D2F958 /* CoreVideo.framework in Frameworks */,
+				7427477C1AC9860E00D2F958 /* CoreAudio.framework in Frameworks */,
+				7427477A1AC9860900D2F958 /* CoreMedia.framework in Frameworks */,
+				6FE4248A53BABC7DA93ED49A /* libPods-SimpleDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24A1B89D53DC68FF0B3317E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4319A5DAFF0E162201454476 /* Pods-SimpleDemo.debug.xcconfig */,
+				292B8C2AAEA634109FE0DFDF /* Pods-SimpleDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8CD804619FD2CEF00B0ED0C = {
+			isa = PBXGroup;
+			children = (
+				F8CD805119FD2CEF00B0ED0C /* SimpleDemo */,
+				F8CD807819FD30BC00B0ED0C /* Frameworks */,
+				F8CD805019FD2CEF00B0ED0C /* Products */,
+				24A1B89D53DC68FF0B3317E1 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F8CD805019FD2CEF00B0ED0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8CD804F19FD2CEF00B0ED0C /* SimpleDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8CD805119FD2CEF00B0ED0C /* SimpleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F8CD805619FD2CEF00B0ED0C /* SimpleDemoAppDelegate.h */,
+				F8CD805719FD2CEF00B0ED0C /* SimpleDemoAppDelegate.m */,
+				F8CD809C19FD7DB700B0ED0C /* SimpleDemoViewController.h */,
+				F8CD809D19FD7DB700B0ED0C /* SimpleDemoViewController.m */,
+				F8CD805C19FD2CEF00B0ED0C /* Main.storyboard */,
+				F8CD805F19FD2CEF00B0ED0C /* Images.xcassets */,
+				F8CD806119FD2CEF00B0ED0C /* LaunchScreen.xib */,
+				F8CD805219FD2CEF00B0ED0C /* Supporting Files */,
+			);
+			path = SimpleDemo;
+			sourceTree = "<group>";
+		};
+		F8CD805219FD2CEF00B0ED0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8CD805319FD2CEF00B0ED0C /* Info.plist */,
+				F8CD805419FD2CEF00B0ED0C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8CD807819FD30BC00B0ED0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8D883761C57F24600976BF7 /* libiconv.tbd */,
+				F8E9CB481BD4BDF0006ED336 /* libc++.tbd */,
+				F8E9CB461BD4BDE3006ED336 /* libresolv.tbd */,
+				742747871AC9863A00D2F958 /* JavaScriptCore.framework */,
+				742747851AC9862A00D2F958 /* OpenGLES.framework */,
+				742747831AC9862200D2F958 /* AssetsLibrary.framework */,
+				742747811AC9861D00D2F958 /* VideoToolbox.framework */,
+				7427477F1AC9861900D2F958 /* AudioToolbox.framework */,
+				7427477D1AC9861400D2F958 /* CoreVideo.framework */,
+				7427477B1AC9860E00D2F958 /* CoreAudio.framework */,
+				742747791AC9860900D2F958 /* CoreMedia.framework */,
+				17E8E32B1565616203EDA921 /* libPods-SimpleDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8CD804E19FD2CEF00B0ED0C /* SimpleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8CD807219FD2CEF00B0ED0C /* Build configuration list for PBXNativeTarget "SimpleDemo" */;
+			buildPhases = (
+				82BD1B1FECC60D1C6E57E1E8 /* Check Pods Manifest.lock */,
+				F8CD804B19FD2CEF00B0ED0C /* Sources */,
+				F8CD804C19FD2CEF00B0ED0C /* Frameworks */,
+				F8CD804D19FD2CEF00B0ED0C /* Resources */,
+				7AC743A97D9569EAF66C1F33 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleDemo;
+			productName = SimpleDemo;
+			productReference = F8CD804F19FD2CEF00B0ED0C /* SimpleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8CD804719FD2CEF00B0ED0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ericsson Research";
+				TargetAttributes = {
+					F8CD804E19FD2CEF00B0ED0C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = F8CD804A19FD2CEF00B0ED0C /* Build configuration list for PBXProject "SimpleDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8CD804619FD2CEF00B0ED0C;
+			productRefGroup = F8CD805019FD2CEF00B0ED0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8CD804E19FD2CEF00B0ED0C /* SimpleDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8CD804D19FD2CEF00B0ED0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CD805E19FD2CEF00B0ED0C /* Main.storyboard in Resources */,
+				F8CD806319FD2CEF00B0ED0C /* LaunchScreen.xib in Resources */,
+				F8CD806019FD2CEF00B0ED0C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7AC743A97D9569EAF66C1F33 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleDemo/Pods-SimpleDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82BD1B1FECC60D1C6E57E1E8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8CD804B19FD2CEF00B0ED0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CD805819FD2CEF00B0ED0C /* SimpleDemoAppDelegate.m in Sources */,
+				F8CD809E19FD7DB700B0ED0C /* SimpleDemoViewController.m in Sources */,
+				F8CD805519FD2CEF00B0ED0C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8CD805C19FD2CEF00B0ED0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8CD805D19FD2CEF00B0ED0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8CD806119FD2CEF00B0ED0C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8CD806219FD2CEF00B0ED0C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8CD807019FD2CEF00B0ED0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8CD807119FD2CEF00B0ED0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8CD807319FD2CEF00B0ED0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4319A5DAFF0E162201454476 /* Pods-SimpleDemo.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/OpenWebRTC/iPhone.sdk",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"~/Library/Developer/OpenWebRTC/iPhone.sdk/OpenWebRTC.framework/Headers/**",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = SimpleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALID_ARCHS = "arm64 armv7s armv7";
+			};
+			name = Debug;
+		};
+		F8CD807419FD2CEF00B0ED0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 292B8C2AAEA634109FE0DFDF /* Pods-SimpleDemo.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/OpenWebRTC/iPhone.sdk",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"~/Library/Developer/OpenWebRTC/iPhone.sdk/OpenWebRTC.framework/Headers/**",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = SimpleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALID_ARCHS = "arm64 armv7s armv7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8CD804A19FD2CEF00B0ED0C /* Build configuration list for PBXProject "SimpleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CD807019FD2CEF00B0ED0C /* Debug */,
+				F8CD807119FD2CEF00B0ED0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8CD807219FD2CEF00B0ED0C /* Build configuration list for PBXNativeTarget "SimpleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CD807319FD2CEF00B0ED0C /* Debug */,
+				F8CD807419FD2CEF00B0ED0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8CD804719FD2CEF00B0ED0C /* Project object */;
+}
